@@ -1,0 +1,8 @@
+require 'net/http'
+require 'uri'
+require 'json'
+require_relative 'appwrite/client'
+require_relative 'appwrite/service'
+require_relative 'appwrite/services/bar'
+require_relative 'appwrite/services/foo'
+require_relative 'appwrite/services/general'
